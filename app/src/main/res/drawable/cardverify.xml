@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ECECF0" /> <!-- White background color for the card -->
+    <corners android:radius="80dp" /> <!-- Rounded corners -->
+    <padding android:left="16dp" android:right="16dp" android:top="0dp" android:bottom="16dp" /> <!-- Optional padding -->
+    <elevation android:value="40dp"/> <!-- Shadow effect -->
+</shape>

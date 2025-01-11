@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Car_Maintenance_Project</string>
+    <string-array name="gender">
+        <item>Select a Gender</item>
+        <item name="male" value="male">Male</item>
+        <item name="female" value="female">Female</item>
+    </string-array>
+    <string-array name="palestinian_cities_names">
+        <item>Select a City</item>
+        <item>Ramallah</item>
+        <item>Hebron</item>
+        <item>Jenin</item>
+        <item>Jericho</item>
+        <item>Nablus</item>
+        <item>Bethlehem</item>
+        <item>Tubas</item>
+        <item>Tulkarem</item>
+        <item>Qalqilya</item>
+        <item>Salfit</item>
+        <item>Gaza</item>
+        <item>Deir Ghassaneh</item>
+        <item>Gaza City</item>
+        <item>Khan Yunis</item>
+        <item>Rafah</item>
+        <item>Beersheba</item>
+        <item>Safar</item>
+        <item>Jerusalem</item>
+        <item>Al-Bireh</item>
+    </string-array>
+</resources>
