@@ -25,7 +25,7 @@ import org.json.JSONObject;
 public class EmailPasswordScreen extends AppCompatActivity {
     private EditText email, password, confirmpassword;
     private Button create, cancel;
-    private final String IP = "192.168.1.101";
+    private final String IP = "192.168.2.73";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

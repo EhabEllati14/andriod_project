@@ -7,14 +7,19 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.InputType;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.MotionEvent;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -24,6 +29,8 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.List;
+
 public class login extends AppCompatActivity {
     private EditText emailEditText;
     private EditText passwordEditText;
@@ -31,7 +38,7 @@ public class login extends AppCompatActivity {
     private CheckBox rememberMe;
     private TextView registerText;
     private boolean isPasswordVisible = false;
-    private final String IP = "192.168.1.101";
+    private final String IP = "192.168.2.73";
 
     private SharedPreferences sharedPreferences;
     private SharedPreferences.Editor editor;
@@ -134,7 +141,7 @@ public class login extends AppCompatActivity {
                 String updatedAt = jsonUser.getString("updated_at");
 
                 // Pass user details to dashboard
-                Intent intent = new Intent(this, dashboard.class);
+                Intent intent = new Intent(this, CustomerDashboardActivity.class);
                 intent.putExtra("ssn", ssn);
                 intent.putExtra("first_name", firstName);
                 intent.putExtra("last_name", lastName);
@@ -182,4 +189,5 @@ public class login extends AppCompatActivity {
         isPasswordVisible = !isPasswordVisible;
         passwordEditText.setSelection(passwordEditText.getText().length());
     }
+
 }

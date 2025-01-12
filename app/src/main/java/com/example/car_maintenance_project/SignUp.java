@@ -34,7 +34,7 @@ public class SignUp extends AppCompatActivity {
     private Button next, clear, back;
     private EditText firstname, lastname, ssn, birthdateInput, phonenumber;
     private Spinner address, gender;
-    private final String IP = "192.168.1.101";
+    private final String IP = "192.168.2.73";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

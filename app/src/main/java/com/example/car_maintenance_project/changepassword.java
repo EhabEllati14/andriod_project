@@ -25,7 +25,7 @@ import org.json.JSONObject;
 public class changepassword extends AppCompatActivity {
     private EditText password, confirmpassword;
     private Button ok, cancel;
-    private final String IP = "192.168.1.101";
+    private final String IP = "192.168.1.25";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

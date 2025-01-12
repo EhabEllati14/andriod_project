@@ -11,14 +11,15 @@
         android:layout_height="wrap_content"
         android:background="#F0ECCE"
         tools:context=".login">
+
         <ImageView
 
             android:id="@+id/imageView2"
-            android:layout_width="500dp"
-            android:layout_height="300dp"
+            android:layout_width="396dp"
+            android:layout_height="242dp"
             android:layout_marginTop="100dp"
             android:layout_marginBottom="40dp"
-            android:src="@drawable/logo"
+            android:src="@drawable/logoname"
             app:layout_constraintBottom_toTopOf="@+id/cardView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.505"

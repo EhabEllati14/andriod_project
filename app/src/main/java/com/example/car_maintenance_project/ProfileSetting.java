@@ -218,7 +218,7 @@ public class ProfileSetting extends AppCompatActivity {
     private EditText firstname1, lastname1, emails, phonenumbers, birthdate;
     private Spinner address1, gender1;
     private Button changepasswordbtn, savebtn ,logoutbtn;
-    private final String IP = "192.168.1.101";
+    private final String IP = "192.168.2.73";
 
 
     @Override

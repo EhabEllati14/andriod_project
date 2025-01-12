@@ -37,6 +37,7 @@ public class dashboard extends AppCompatActivity {
         String dateofbirth = incomingIntent.getStringExtra("date_of_birth");
         String createdAt = incomingIntent.getStringExtra("created_at");
         String updatedAt = incomingIntent.getStringExtra("updated_at");
+        feedback = findViewById(R.id.feedback);
 
         // Set click listener for Feedback button
         feedback.setOnClickListener(new View.OnClickListener() {

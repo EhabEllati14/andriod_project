@@ -27,7 +27,7 @@ public class feedback extends AppCompatActivity {
     private ImageView[] stars = new ImageView[5];
     private  static int currentRating = 0;
     private EditText message;
-    private final String IP = "192.168.1.101";
+    private final String IP = "192.168.2.73";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
